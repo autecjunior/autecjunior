@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+    <html lang="pt-br">
+
+        <head>
+
+            <meta charset="UTF-8">
+            <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+            <title>Autec Jr.</title>
+
+            <!-- Bootstrap Core CSS -->
+            <link href="css/bootstrap.min.css" rel="stylesheet">
+            <link href="css/style.css" rel="stylesheet">
+
+            <!-- Custom Fonts -->
+            <link href="font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+            <link href="http://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,700,300italic,400italic,700italic" rel="stylesheet" type="text/css">
+
+            <!--favicon -->
+            <link rel="icon" type="image/png" href="img/favicon.png" />
+        </head>
+
+        <body>
+            <nav class="navbar navbar-default navbar-fixed-top">
+                <div class="container-fluid">
+                    <!-- Brand and toggle get grouped for better mobile display -->
+                    <div class="navbar-header">
+                        <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+                            <span class="sr-only">Toggle navigation</span>
+                            <span class="icon-bar"></span>
+                            <span class="icon-bar"></span>
+                            <span class="icon-bar"></span>
+                        </button>
+                        <a class="navbar-brand img-responsive" href="index.html"><img src="img/logo.png" /></a>
+                    </div>
+                    <!-- Collect the nav links, forms, and other content for toggling -->
+                    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                        <ul class="nav navbar-nav navbar-right">
+                            <li><a href="index.html" class="this">Home</a></li>
+                            <li><a href="services.html">Serviços</a></li>
+                            <li><a href="equipe.html">Equipe</a></li>
+                            <li><a href="parceiros.html">Parceiros</a></li>
+                            <li><a href="portfolio.html">Portifólio</a></li>
+                            <li><a href="blog.html">Blog</a></li>
+                            <li><a href="contact.html">Contato</a></li>
+                        </ul>
+                    </div><!-- /.navbar-collapse -->
+                </div><!-- /.container-fluid -->
+            </nav>
+
+            <header class="container">
+                 <div class="row" style="padding-top: 15%;">
+                   <div class="col-md-6" style="padding-bottom: 5%;">
+                      <h2><strong>Formulario de Contato</strong></h2>
+                      <form class="form-contato" role="form">
+                        <div class="form-group">
+                          <label for="assunto">Assunto:</label>
+                          <input type="email" class="form-control" name="assunto" id="assunto" placeholder="Assunto" required>
+                        </div>
+
+                        <div class="form-group">
+                          <label for="msg">Mensagem:</label>
+                          <textarea class="form-control" rows="5" name="msg" id="msg" placeholder="Mensagem" required></textarea>
+                        </div>
+
+                        <a id="button_enviar" class="btn btn-default btn-block">Enviar</a>
+                        <span class="text-alert">*Um dos campos está vazio, preencha por favor!</span>
+                      </form>
+                   </div>
+
+                    <div class="col-md-6" style="padding-bottom: 5%;">
+                        <h2><strong>Endereço & Contato</strong></h2>
+                        <p>Localizada no IFPB - Campus Cajazeiras<br>
+                            Rua José Antônio da Silva, n° 300. <br>
+                            Bairro Jardim Oásis
+                            <br>Cajazeiras, PB</p><br>
+                        <ul class="list-unstyled">
+                            <li><i class="fa fa-phone fa-fw"></i> (83) 3531-4560 (Ramal 4200) <br><img src="img/icon/whatsapp.png"> (83) 99948-2063.</li>
+                            <li><i class="fa fa-envelope-o fa-fw"></i>  <a href="mailto:contato@autecjr.com">contato@autecjr.com</a></li>
+                        </ul>
+                        <br>
+                     </div>
+                  </div> <!--.row -->
+
+                  <div class="row">
+                    <div class="col-md-12" style="padding-bottom: 15.5%;">
+                        <iframe class="z-depth-2" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3961.0073695044543!2d-38.54464109999997!3d-6.889719699999998!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x7a473a326fca383%3A0xfb7129bbe35e98d3!2sInstituto+Federal+de+Educa%C3%A7%C3%A3o+Ci%C3%AAncia+e+Tecnologia.!5e0!3m2!1sen!2sbr!4v1436332843781" width="100%" height="300" frameborder="0" style="border:0" allowfullscreen></iframe>
+                    </div>
+                  </div>
+
+            </header>
+
+            <footer>
+                <ul class="col-xm-12">
+                    <li><a href="https://www.facebook.com/AutecJr"><img src="img/icon/facebook.png"></a></li>
+                    <li><a href="https://instagram.com/autecjr/"><img src="img/icon/instagram.png"></a></li>
+                    <li><a href="https://www.youtube.com/channel/UCgcIscOWTyWGY26VFOMQIjg"><img src="img/icon/youtube.png"></a></li>
+                    <li><a href="mailto:contato@autecjr.com"><img src="img/icon/email.png"></a></li>
+                </ul>
+                <p class="col-xm-12">Design by <a target="_blank" href="https://recursive.com.br">Recursive Jr.</a></p>
+            </footer>
+
+            <!-- jQuery -->
+            <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+
+            <!-- Bootstrap Core JavaScript -->
+            <script src="js/bootstrap.min.js"></script>
+
+            <!-- email.js para ajustar envio de e-mail -->
+            <script src="js/email.js" charset="utf-8"></script>
+        </body>
+    </html>

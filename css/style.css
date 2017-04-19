@@ -1,0 +1,220 @@
+
+ /* Estilo do site */
+
+@import url(https://fonts.googleapis.com/css?family=Marvel:400,700);
+@import url(http://fonts.googleapis.com/css?family=Open+Sans:40);
+
+html, body{
+	font-family: 'Open Sans Condensed', sans-serif;
+	margin: 0 auto; !important;
+	padding: 0; !important;
+  text-align: center; !important;
+  height: 100% !important;
+}
+
+h1, h2, h3, h4, h5, h6{
+    color: #2582ce;
+}
+
+p{
+    font-family: 'Marvel', sans-serif;
+    font-size: 1.3em;
+}
+
+section {
+    padding-top: 3%;
+    padding-bottom: 3%;
+    width: 100% !important;
+    height: auto !important;
+    min-height: 50% !important;
+}
+
+section h1{
+   padding-top: 2%;
+   padding-bottom: 2%;
+}
+
+/* Menu */
+.navbar-default{
+    border: 0px;
+    box-shadow:0px 0px 5px grey;
+    font-size: 1.1em;
+}
+
+.navbar-brand img{
+    width: 80px;
+    position: relative;
+    bottom: 8px;
+}
+
+.navbar-nav a{
+    padding: 25px !important;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.navbar-nav a:hover{
+    background-color: #2582ce !important;
+    color: white !important;
+}
+
+/* Box */
+.box{
+    overflow: hidden;
+    border-radius: 5%;
+    height: 300px;
+    padding: 5%;
+    background-color: white;
+    transition-duration:0.5s;
+}
+.box p{
+    text-align: justify;
+}
+
+/* Imagem dos produtos */
+.produto{
+    width: 80%;
+    height: 80%;
+    overflow: hidden;
+}
+
+/* Parceiros */
+.logo img{
+    width: 100px;
+    height: 30px;
+}
+
+/* Equipe */
+.box-people{
+    overflow: hidden;
+    padding-top: 5%;
+    background: white;
+}
+
+.sombra{
+    box-shadow: 2px 2px rgba(0,0,0,0.8);
+}
+
+.box-people img{
+    border-radius: 50%;
+    border-style: ridge;
+    width: 150px;
+    height: 150px;
+}
+
+.foto-equipe{
+    min-width: 100%;
+}
+
+.redes-sociais{
+    margin: 3% 9% 0 1%;
+}
+
+.redes-sociais li{
+    display: inline-block;
+}
+
+.redes-sociais li a img{
+    border-radius: 0%;
+    width: auto;
+    height: auto;
+    list-style: none;
+    padding: 1%;
+
+}
+
+/* Classes de correção rápida => Equipe */
+.correcao-equipe {
+	padding-bottom: 15%;
+}
+
+.correcao-section {
+	margin-bottom: -10% !important;
+}
+
+/* Consultores */
+.consultores{
+		margin: 2%;
+}
+
+/* Parceiros */
+.enfase{
+    background-color: #01406D;
+   	padding: 2%;
+    color: white;
+    overflow: hidden;
+    font-size: 1.2em !important;
+    box-shadow: 10px 10px 5px #888888;
+}
+
+.logo{
+    width: 150px ;
+    height: 80px;
+}
+
+.box-portfolio{
+		height: auto;
+		overflow: hidden;
+		border-width: medium;
+		border-style: solid;
+		border-color: #01406D;
+		width: 60%;
+}
+
+.img-portfolio{
+		background-color: #01406D;
+		height: inherit;
+}
+
+/* Contato */
+.form-contato {
+  text-align: left;
+}
+
+label {
+  margin-left: 0.5%;
+}
+
+textarea {
+  resize: none;
+}
+
+.text-alert {
+  display: none;
+  color:red;
+  font-weight: bold;
+  font-size:20px;
+}
+
+
+/* Footer */
+footer{
+    background-color: #01406D;
+    color: white;
+    padding: 2%;
+}
+
+footer ul{
+    padding-top: 2%;
+}
+
+footer ul li{
+    display: inline-block;
+    padding-right: 1%;
+}
+
+.btn-default{
+    color: white;
+    background-color:  #2582ce;
+}
+
+.fieldset {
+	 min-height: 470px !important;
+}
+
+/* Mobile */
+@media(max-width: 700px){
+    .navbar-brand img{
+        width:60px;
+        bottom: 10px;
+    }
+}
